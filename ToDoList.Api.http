@@ -1,0 +1,14 @@
+@ToDoList.Api_HostAddress = https://localhost:7169
+
+GET {{ToDoList.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+DELETE {{ToDoList.Api_HostAddress}}/api/v1/todoitems/string
+
+###
+
+GET {{ToDoList.Api_HostAddress}}/api/v1/todoitems/string
+
+###
